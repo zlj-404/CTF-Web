@@ -14,6 +14,7 @@ Hint: If you got 「HTTP Method Not Allowed」 Error, you should request index.p
 * 得到flag
   ### 总结
   考点：HTTP Method
+  
   HTTP Method 是可以自定义的，并且区分大小写，直接用 CTFHUB 方法请求 index.php 即可拿到 flag.
   curl -v -X CTFHUB http://challenge-d448cd253f52cf7d.sandbox.ctfhub.com:10800/index.php
   
